@@ -1,0 +1,29 @@
+div {
+    margin-left: 45%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 0px 50px 0px 50px;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: cyan;
+    height: 200px;
+    width: 250px;
+
+}
+
+h1 {
+    color: rgb(172, 19, 233);
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+}
+
+div {
+    background-color: cyan;
+    height: 200px;
+    width: 250px;
+    background-position: center;
+}

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>transition</title>
+    <style>
+        .box {
+            text-align: center;
+            color: rgb(107, 29, 15);
+            height: 150px;
+            width: 150px;
+            /*margin: auto;*/
+            background-color: rgb(201, 26, 201);
+            margin: 80px 80px;
+            padding: 50px 50px 50px 50px;
+            transition: background 3s, border-radius 1s, width 1s, transform-roteta 1s;
+        }
+
+        .box:hover {
+            background-color: teal;
+            border-radius: 30%;
+            width: 400px;
+            transform: rotate(-10deg);
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            margin-left: 50px;
+            background-color: yellowgreen;
+            background: radial-gradient(#ccc, #f00);
+            box-shadow: 3px 2px 10px 1px rgb(97, 93, 93);
+            transform: skew(5deg, 10deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Ayushi</div>
+    <div class="box2"></div>
+</body>
+
+</html>

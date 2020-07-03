@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Image</title>
+    <style>
+        .inner {
+            width: 3220px;
+            height: 600px;
+            animation: sld 12s infinite;
+        }
+
+        @keyframes sld {
+            0% {
+                margin-left: 0px;
+            }
+
+            33% {
+                margin-left: -800px;
+            }
+
+            66% {
+                margin-left: -1600px;
+            }
+
+            100% {
+                margin-left: -2400px;
+            }
+        }
+
+        .outer {
+            margin: auto;
+            width: 800px;
+            height: 600px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <img src="Animation/Img/sky.jpg">
+            <img src="Animation/Img/sky.jpg">
+            <img src="Animation/Img/sky.jpg">
+            <img src="Animation/Img/sky.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
