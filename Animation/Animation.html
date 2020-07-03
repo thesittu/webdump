@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animation</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            background: linear-gradient(blue, rgb(255, 0, 170));
+            animation: abc 5s infinite;
+            /*animation-duration: 5s;*/
+        }
+
+        @keyframes abc {
+            0% {
+                background: linear-gradient(blue, rgb(255, 0, 170));
+                transform: rotate(45deg);
+                border-radius: 0%;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            25% {
+                background: radial-gradient(blue, rgb(255, 0, 170));
+                transform: rotate(45deg);
+                border-radius: 50%;
+                margin-top: 0px;
+                margin-left: 500px;
+            }
+
+            50% {
+                background: radial-gradient(blue, rgb(255, 0, 170));
+                transform: rotate(45deg);
+                border-radius: 0%;
+                margin-top: 500px;
+                margin-left: 500px;
+            }
+
+            75% {
+                background: radial-gradient(blue, rgb(255, 0, 170));
+                transform: rotate(45deg);
+                border-radius: 50%;
+                margin-top: 500px;
+                margin-left: 0px;
+            }
+
+            100% {
+                background: radial-gradient(blue, rgb(255, 0, 170));
+                transform: rotate(45deg);
+                border-radius: 0%;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.card {
+  background-color: rgb(245, 236, 242);
+  width: 1050px;
+  height: 600px;
+  align-items: justify;
+  margin: 100px 100px 0px 200px;
+  /* background-attachment: fixed;
+    background-position: center; */
+  border: rgb(71, 180, 253) double 10px;
+  position: relative;
+}
+
+h1 {
+  color: darkblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 70px;
+  padding-left: 80px;
+  /* margin-left: 80px;
+  margin-top: 100px; */
+}
+
+h2 {
+  color: rgb(139, 139, 247);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  /* padding-top: -80px; */
+  margin-top: -30px;
+}
+
+.Address {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.email {
+  color: rgb(3, 150, 106);
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.www {
+  color: rgb(77, 167, 228);
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.img {
+  background-image: url(img/fb.png);
+  height: 50px;
+  width: 50px;
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.img1 {
+  background-image: url(img/fb.png);
+  height: 50px;
+  width: 50px;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.img2 {
+  background-image: url(img/fb.png);
+  height: 50px;
+  width: 50px;
+  margin-left: 220px;
+  margin-top: -50px;
+}
+.shivam {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  bottom: 200px;
+  right: 180px;
+}
+
+/* .bhaiya {
+  background-image: url(img/bhaiya\ji.jpg);
+  height: 300px;
+  width: 300px;
+  margin-left: 450px;
+  margin-top: -350px;
+} */
