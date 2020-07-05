@@ -3,29 +3,46 @@
 <head>
     <title>transition</title>
     <style>
-        .box {
+        /* h1 {
             text-align: center;
-            color: rgb(107, 29, 15);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 30px auto;
+            transition: 1.5s;
+        }
+
+        h1:hover {
+            transform: rotateY(-180deg);
+        } */
+
+
+        .boxp {
             height: 150px;
             width: 150px;
-            /*margin: auto;*/
-            background-color: rgb(201, 26, 201);
+            border-radius: 20%;
+            margin: 50px 150px 50px 150px;
+            background-color: #d312fa;
             margin: 80px 80px;
             padding: 50px 50px 50px 50px;
-            transition: background 3s, border-radius 1s, width 1s, transform-roteta 1s;
+            /* transition: background 3s, border-radius 1s, width 1s; */
+            transition: 1.5s;
+            transform-style: preserve-3d;
+            position: relative;
         }
 
-        .box:hover {
-            background-color: teal;
-            border-radius: 30%;
-            width: 400px;
-            transform: rotate(-10deg);
+
+
+        .boxp:hover {
+            cursor: pointer;
+            background-color: rgb(92, 0, 128);
+            border-radius: 20%;
+            transform: rotateY(-180deg);
         }
 
-        .box2 {
+        .box3 {
             width: 200px;
             height: 200px;
-            margin-left: 50px;
+            margin: 200px 100px;
             background-color: yellowgreen;
             background: radial-gradient(#ccc, #f00);
             box-shadow: 3px 2px 10px 1px rgb(97, 93, 93);
@@ -35,8 +52,15 @@
 </head>
 
 <body>
-    <div class="box">Ayushi</div>
-    <div class="box2"></div>
+
+    <div class="boxp">
+        <div class="box1">
+            <div class="box2">
+                <h1>Ayushi</h1>
+            </div>
+        </div>
+    </div>
+    <div class="box3"></div>
 </body>
 
 </html>
