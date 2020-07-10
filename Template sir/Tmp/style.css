@@ -1,0 +1,193 @@
+body {
+	background: url(images/image-slider-2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	margin: auto;
+	width: 1200px;
+	height: auto;
+	background: #963;
+	box-shadow: 10px 10px 20px #000;
+}
+
+header {
+	height: 150px;
+	background: #000;
+	background: linear-gradient(#bf0f17, #850808);
+}
+
+.mid {
+	height: auto;
+	padding: 20px 20px 50px 20px;
+	background: #FFF;
+}
+
+footer {
+	height: 150px;
+	background-color: #000;
+	color: #FFF;
+}
+
+footer p {
+	margin: auto;
+	text-align: center;
+	line-height: 150px;
+	font-family: arial;
+}
+
+.logo {
+	/*background:#CCC;*/
+	height: 150px;
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	/*background:#993;*/
+	/* height: 150px; */
+	width: 70%;
+	float: left;
+}
+
+.logo img {
+	/* margin: auto; */
+	width: 200px;
+	margin-left: 85px;
+	margin-top: 20px;
+}
+
+.menu ul {
+	list-style: none;
+	margin-left: 80px;
+	margin-top: 70px;
+}
+
+.menu ul li {
+	display: inline;
+	padding: 20px;
+	/*background:#FFF; */
+}
+
+.menu ul li a {
+	color: #FFF;
+	text-decoration: none;
+	font-family: verdana;
+}
+
+.abt {
+	margin: auto;
+	width: 700px;
+}
+
+.abt h1 {
+
+	font-family: arial;
+	font-size: 2em;
+}
+
+.abt p {
+	font-family: arial;
+	text-align: justify;
+	line-height: 25px;
+	text-indent: 35px;
+}
+
+.ser {
+	margin: auto;
+	height: 400px;
+	/*background:#ccc;*/
+	width: 930px;
+}
+
+.ser h2 {
+	text-align: center;
+	font-family: arial;
+	font-size: 3em;
+}
+
+.s1 {
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	background: #860825;
+	float: left;
+	border: 5px solid #FFF;
+	text-align: center;
+	color: #FFF;
+	border-radius: 25px;
+}
+
+.s1 i {
+	font-size: 5em;
+	margin-top: 80px;
+}
+
+.s1 h3 {
+	font-family: arial;
+}
+
+.gal {
+	margin: auto;
+	width: 900px;
+}
+
+.gal h2 {
+	text-align: center;
+	font-family: arial;
+	font-size: 3em;
+}
+
+.gal img {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	border: 10px solid #FFF;
+	box-shadow: 10px 10px 20px #000;
+	margin-top: 20px;
+	margin-left: 27px;
+}
+
+.cont {
+	margin: auto;
+	width: 900px;
+	text-align: center;
+
+}
+
+.cont h2 {
+	text-align: center;
+	font-family: arial;
+	font-size: 3em;
+}
+
+.t1 {
+	width: 100%;
+	font-size: 22px;
+	padding: 15px;
+	margin-top: 15px;
+	background: #333;
+	color: #FFF;
+}
+
+.t2 {
+	width: 100%;
+	font-size: 22px;
+	padding: 15px;
+	margin-top: 15px;
+	background: #333;
+	color: #FFF;
+	height: 150px;
+}
+
+.btn1 {
+	margin: auto;
+	width: 40%;
+	padding: 15px 20px 15px 20px;
+	font-size: 1.5em;
+	background: linear-gradient(#c32b2b, #540707);
+	border: none;
+	color: #FFF;
+	margin-top: 10px;
+}

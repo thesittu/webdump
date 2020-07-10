@@ -1,0 +1,118 @@
+*
+{
+	margin: auto;
+	padding: 0px;
+	font-family: arial !important;
+}
+.spacer
+{
+	height: 25px;
+}
+.container
+{
+	width: 80%;
+}
+header
+{
+	display: flex;
+	height: 120px;
+	/*background: #CCC;*/
+	max-width: 1366px;
+}
+.logo
+{
+	flex: 30%;
+	text-align: center;
+	font-size: 2em;
+}
+.menu
+{
+	flex: 70%;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	display: inline;
+	padding:15px; 
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: #000;
+}
+.abt1 img
+{
+	width: 100%;
+}
+.abt
+{
+	display: flex;
+}
+.abt1
+{
+	flex: 1;
+	padding: 2.5%;
+}
+.abt2
+{
+	flex: 1;
+	padding: 2.5%;
+}
+.title
+{
+	text-align: center;
+	font-size: 3em; 
+}
+.abt2 h2
+{
+	line-height: 50px;
+	font-size: 2em;
+}
+.abt2 p
+{
+	line-height: 35px;
+	font-size: 18px;
+}
+.ser
+{
+	display: flex;
+}
+.svg1
+{
+	flex: 1;
+	padding: 2%;
+	fill: #0a7ee2;
+}
+.svg1 h4
+{
+	text-align: center;
+	line-height: 50px;
+	font-size: 2em; 
+}
+.cont
+{
+	display: flex;
+	background:url(images/bg.jpg); 
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+.cont1
+{
+	flex: 1;
+	color: #FFF;
+}
+footer
+{
+	height: 80px;
+	background:#333; 
+}
+footer p
+{
+	color: #FFF;
+	line-height: 50px;
+	text-align: center;
+}

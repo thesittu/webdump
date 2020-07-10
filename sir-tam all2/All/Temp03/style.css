@@ -1,0 +1,22 @@
+.main
+{
+	width: 1170px;
+	height: 800px;
+	background: #000;
+	margin: auto;
+}
+.header
+{
+	height: 150px;
+	background: #4c29a3;
+}
+.mid
+{
+	height: 500px;
+	background: #EEE;
+}
+.footer
+{
+	background: #4c29a3;
+	height: 150px;
+}
