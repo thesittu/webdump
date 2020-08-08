@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Form Event</title>
+    <script>
+      function t1() {
+        document.getElementById("aa").style.background = "yellow";
+      }
+      function t2() {
+        document.getElementById("aa").style.background = "skyblue";
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <input id="aa" type="text" onfocus="t1()" onblur="t2()" />
+    </form>
+  </body>
+</html>

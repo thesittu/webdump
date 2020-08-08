@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>
+      Validation
+    </title>
+    <script>
+      function vali() {
+        var a = document.getElementById("t1").value;
+        if (a == "" || a == null || a < names.lenght) {
+          alert("error with name");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="validation-welcome.html">
+      name:<input type="text" id="t1" /><br />
+      <input type="submit" onclick="return" vali() />
+    </form>
+  </body>
+</html>

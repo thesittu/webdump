@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Body Event</title>
+    <style>
+      #box {
+        margin: auto;
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+      }
+    </style>
+    <script>
+      function aa() {
+        document.getElementById("box").style.background = "green";
+      }
+      function ss() {
+        document.getElementById("box").style.background = "red";
+      }
+    </script>
+  </head>
+  <body onload="aa()">
+    <div id="box" onclick="ss()"></div>
+  </body>
+</html>

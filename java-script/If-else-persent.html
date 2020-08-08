@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>percentage</title>
+    <script>
+      var a = prompt("what is name");
+      document.write("<h1>" + a + "<br>" + "</h1>");
+
+      var per = prompt("what is your percentage");
+
+      if (per >= 80 && per <= 100) {
+        document.write("you are in merit");
+      } else if (per >= 60 && per < 80) {
+        document.write("you are in 1st divission");
+      } else if (per >= 45 && per < 60) {
+        document.write("you are in 2ed division");
+      } else if (per >= 33 && per < 45) {
+        document.write("you are in 3ed division");
+      } else if (per >= 0 && per < 33) {
+        document.write("you are fail");
+      } else {
+        document.write("Please enter valid percentage");
+      }
+    </script>
+  </head>
+</html>

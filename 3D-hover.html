@@ -1,76 +1,76 @@
 <html>
-
-<head>
+  <head>
     <title>3D Hover</title>
     <style>
-        .parent {
-            height: 300px;
-            width: 300px;
-            margin: 100px 200px;
-            border-radius: 20%;
-            position: relative;
-            transform-style: preserve-3d;
-            transition: 1s;
-            transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
+      .parent {
+        height: 300px;
+        width: 300px;
+        /* margin: 100px 200px; */
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 1s;
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
 
-        .child1 {
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            border-radius: 20%;
-            background: radial-gradient(#4c00ff, #2b0386);
-            box-shadow: 1px 1px 15px 5px rgb(141, 140, 140);
-        }
+      .child1 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        border-radius: 20%;
+        background: radial-gradient(#4c00ff, #2b0386);
+        box-shadow: 1px 1px 25px 1px rgb(165, 164, 164);
+      }
 
-        .child2 {
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            border-radius: 20%;
-            color: white;
-            transform: translatez(70px);
-        }
+      .child2 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        border-radius: 20%;
+        color: white;
+        transform: translatez(70px);
+      }
 
-        .child3 {
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            color: rgb(255, 255, 255);
-            border-radius: 20%;
-            transform: translatez(-70px);
-        }
+      .child3 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        border-radius: 20%;
+        transform: translatez(-70px);
+      }
 
-        h1 {
-            margin-top: 120px;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+      h1 {
+        margin-top: 120px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-        h1.a {
-            margin-top: 120px;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            transform: rotateY(-180deg);
-        }
+      h1.a {
+        margin-top: 120px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: rotateY(-180deg);
+      }
 
-        .parent:hover {
-            cursor: pointer;
-            transform: rotateY(180deg);
-        }
+      .parent:hover {
+        cursor: pointer;
+        transform: rotateY(180deg);
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="parent">
-        <div class="child1"></div>
-        <div class="child2">
-            <h1>Front</h1>
-        </div>
-        <div class="child3">
-            <h1 class="a">Back</h1>
-        </div>
+      <div class="child1"></div>
+      <div class="child2">
+        <h1>Front</h1>
+      </div>
+      <div class="child3">
+        <h1 class="a">Back</h1>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

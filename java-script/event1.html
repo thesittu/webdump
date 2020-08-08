@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Event plus</title>
+    <script type="text/javascript">
+      function abc() {
+        var a = parseInt(document.getElementById("t1").value);
+        var b = parseInt(document.getElementById("t2").value);
+        var c = parseInt(document.getElementById("t3").value);
+
+        answer = a + b + c;
+        alert("value is:" + answer);
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      Value 1:<input type="text" id="t1" /><br />
+      Value 2:<input type="text" id="t2" /><br />
+      Value 3:<input type="text" id="t3" /><br />
+      <input type="button" value="+plus+" onclick="abc()" />
+    </form>
+  </body>
+</html>

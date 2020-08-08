@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Mouse Event</title>
+    <style>
+      #box {
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+      }
+    </style>
+    <script>
+      function aa() {
+        document.getElementById("box").style.background = "red";
+        document.getElementById("box").style.width = "200px";
+      }
+      function ss() {
+        document.getElementById("box").style.background = "green";
+        document.getElementById("box").style.width = "100px";
+      }
+      function dd() {
+        document.getElementById("box").style.background = "yellow";
+        document.getElementById("box").style.width = "150px";
+      }
+      function ff() {
+        document.getElementById("box").style.background = "orange";
+        document.getElementById("box").style.width = "110px";
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      id="box"
+      onmouseover="aa()"
+      onmouseout="ss()"
+      ondblclick="dd()"
+      onclick="ff()"
+    ></div>
+  </body>
+</html>
